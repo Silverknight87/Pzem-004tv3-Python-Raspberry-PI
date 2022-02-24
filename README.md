@@ -1,5 +1,6 @@
 # Pzem-004tv3-Python-Raspberry-PI
-**Python code to Read Multiple PZEM 004t connected in parallel to USBtoSerial converter on Raspberry PI (Model 3B) and output JSON objects to MQTT**
+
+## Python code to Read Multiple PZEM 004t connected in parallel to USBtoSerial converter on Raspberry PI (Model 3B) and output JSON objects to MQTT
 
 Code first posted by Paul(PB66) somewhere on this [thread](https://community.openenergymonitor.org/t/pzem-016-single-phase-modbus-energy-meter/7780). I just made some simple modifications to format output to JSON and sent to MQTT broker for consumption on Nodered or elsewhere. Note: I am not a programmer, all modifications i made are purely based on my half knowledge and Internet search, please excuse if some of the stuff i have done looks lame, what matters is the code is working for me and is giving desired results for over 1 month. Feedback for improvements always welcome.
 
